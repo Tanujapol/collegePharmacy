@@ -1,0 +1,22 @@
+create database medici;
+use medici;
+CREATE TABLE E(MEDICINE varchar(50),QUANTITY integer);
+insert into E values("bandage",100);
+insert into E values("karvol",200);
+insert into E values("levocetrizine",108);
+insert into E values("paracetamol",100);
+insert into E values("avil25",100);
+insert into E values("certrizine",500);
+insert into E values("phenylephrine",1000);
+insert into E values("augmentin",10000);
+insert into E values("dolo650",10000);
+insert into E values("ibuprofen",10000);
+insert into E values("buskopan",10000);
+insert into E values("buskogast",10000);
+insert into E values("tums",10000);
+insert into E values("cotton",10000);
+insert into E values("moov",10000);
+insert into E values("painbalm",1000);
+insert into E values("burnol",10000);
+insert into E values("vicks",10000);
+select * from E
